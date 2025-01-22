@@ -1,0 +1,35 @@
+{
+  "name": "fels-language-support",
+  "displayName": "Fels Language Support",
+  "description": "Syntax highlighting for the Fels programming language",
+  "version": "0.0.1",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "fels",
+        "aliases": [
+          "Fels",
+          "fels"
+        ],
+        "extensions": [
+          ".fels"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "fels",
+        "scopeName": "source.fels",
+        "path": "./syntaxes/fels.tmLanguage.json"
+      }
+    ]
+  }
+}
