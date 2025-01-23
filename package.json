@@ -2,7 +2,7 @@
   "name": "fels-language-support",
   "displayName": "Fels language support for VSCode",
   "description": "Syntax highlighting for the Fels programming language",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "FelsStudio",
   "engines": {
     "vscode": "^1.60.0"
