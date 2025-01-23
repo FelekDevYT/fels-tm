@@ -1,0 +1,65 @@
+{
+"scopeName": "source.fels",
+  "patterns": [
+    {
+      "match": "\\b(println|print|func|class|return|if|else|while|for|using|import|panic|match|case|extract|echo)\\b",
+      "name": "keyword.control.fels"
+    },
+    {
+      "match": "\\b(true|false)\\b",
+      "name": "constant.language.fels"
+    },
+    {
+      "match": "\\b(NUMBER|STRING|FUNCTION|Array)\\b",
+      "name": "storage.type.fels"
+    },
+    {
+      "match": "\\b(\\d+)\\b",
+      "name": "constant.numeric.fels"
+    },
+    {
+      "match": "\"(.*?)\"",
+      "name": "string.quoted.double.fels"
+    },
+    {
+      "match": "//.*",
+      "name": "comment.line.double-slash.fels"
+    },
+    {
+      "begin": "/\\*",
+      "end": "\\*/",
+      "name": "comment.block.fels"
+    },
+    {
+      "match": "\\b(func|class)\\b",
+      "name": "entity.name.function.fels"
+    },
+    {
+      "match": "\\b(new|this)\\b",
+      "name": "keyword.operator.fels"
+    },
+    {
+      "match": "\\b(and|or|not)\\b",
+      "name": "keyword.operator.logical.fels"
+    },
+    {
+      "match": "\\b(\\+|\\-|\\*|/|%|==|!=|<=|>=|<|>)\\b",
+      "name": "keyword.operator.arithmetic.fels"
+    }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "match": "//.*",
+          "name": "comment.line.double-slash.fels"
+        },
+        {
+          "begin": "/\\*",
+          "end": "\\*/",
+          "name": "comment.block.fels"
+        }
+      ]
+    }
+  }
+}
