@@ -2,7 +2,7 @@
 "scopeName": "source.fels",
   "patterns": [
     {
-      "match": "\\b(println|print|func|class|return|if|else|while|for|using|import|panic|match|case|extract|echo|loop|range)\\b",
+      "match": "\\b(assert|atoi|break|case|class|const|continue|do|else|extract|for|func|if|itoa|length|loop|match|new|panic|pass|perror|print|println|range|return|typeOf|typeToString|while)\\b",
       "name": "keyword.control.fels"
     },
     {
